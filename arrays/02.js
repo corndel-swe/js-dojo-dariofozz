@@ -10,8 +10,8 @@ export function endSum(prices) {
   // TODO: Get the second-last element from the array
   // TODO: Return the sum of the last and second-last elements
 
-  const lastelement = prices[5]
-  const secondlastelement = prices[6]
+  const lastelement = prices[prices.length - 1]
+  const secondlastelement = [prices.length - 2]
   const result = lastelement + secondlastelement
 
   return result

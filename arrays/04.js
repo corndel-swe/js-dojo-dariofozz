@@ -7,7 +7,7 @@
  */
 export function removeFirstRating(ratings) {
 
-   ratings.shift
+   ratings.shift()
 
   return ratings
   // TODO: Use the shift() method to remove the first element from the array
