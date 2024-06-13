@@ -8,6 +8,8 @@
  */
 export function totalCost(price, quantity) {
 
-  return price * quantity
+  const result = price * quantity
+
+  return result
   // TODO: return the total cost by multiplying price and quantity
 }
