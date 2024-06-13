@@ -7,5 +7,10 @@
  * Example: remainingSavings(100, 40) should return 60.
  */
 export function remainingSavings(savings, cost) {
+
+  const result = savings - cost
+  
+  return result
+
   // TODO: return the remaining savings after subtracting cost from savings
 }

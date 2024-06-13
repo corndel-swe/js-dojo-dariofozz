@@ -7,5 +7,9 @@
  * Example: totalCost(10, 3) should return 30.
  */
 export function totalCost(price, quantity) {
+
+  const result = price * quantity
+
+  return result
   // TODO: return the total cost by multiplying price and quantity
 }
