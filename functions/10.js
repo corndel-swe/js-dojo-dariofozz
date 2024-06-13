@@ -8,4 +8,6 @@
  */
 export function canGoPicnic(isSunny, isWeekend) {
   // TODO: return true if both isSunny and isWeekend are true
+
+  return isSunny
 }
