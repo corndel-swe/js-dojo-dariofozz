@@ -8,8 +8,8 @@
 export function firstAndLastName(names) {
 
 
-  const first = names [0]
-  const last = names [names.length-1]
+  const first = names [0 ]
+  const last = names [names.length-1] 
 
   return [first, last]
 
